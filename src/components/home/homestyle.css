@@ -1,0 +1,25 @@
+.home-frame {
+    font-size: 20pt;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.home {
+    color: #AAAAAA;
+    vertical-align: middle;
+    transition: 200ms;
+}
+
+.svgHome {
+    stroke: #AAAAAA;
+    fill: #AAAAAA;
+    transition: 200ms;
+}
+
+.home-frame:hover .home, .home-frame:hover .svgHome {
+    color: white;
+	/* for svg colors */
+    fill: white;
+    stroke: white;
+}

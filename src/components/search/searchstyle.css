@@ -1,0 +1,25 @@
+.search-frame {
+    display: flex;
+    font-size: 20pt;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search {
+    color: #AAAAAA;
+    vertical-align: middle;
+    transition: 200ms;
+}
+
+.svgSearch {
+    stroke: #AAAAAA;
+    fill: #AAAAAA;
+    transition: 200ms;
+}
+
+.search-frame:hover .search, .search-frame:hover .svgSearch {
+    color: white;
+	/* for svg colors */
+    fill: white;
+    stroke: white;
+}

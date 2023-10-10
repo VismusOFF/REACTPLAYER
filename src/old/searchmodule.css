@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, black;
+}
+
+.search-home {
+    background-color: black;
+    border-radius: 25px;
+    display: inline-block;
+    width: 480px;
+    height: 160px;
+}
+
+.home-frame {
+    font-size: 20pt;
+}
+
+.home-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.home {
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #AAAAAA;
+    vertical-align: middle;
+    transition: 200ms;
+}
+
+.search:hover {
+    color: white;
+    transition-duration: 200ms;
+}
+
+.home:hover {
+    color: white;
+    transition-duration: 200ms;
+}

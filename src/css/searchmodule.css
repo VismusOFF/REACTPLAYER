@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, black;
+    background-color: #333;
+}
+
+.search-home {
+    background-color: black;
+    border-radius: 25px;
+    display: inline-block;
+    width: 480px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
