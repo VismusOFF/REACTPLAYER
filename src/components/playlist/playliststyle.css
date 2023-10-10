@@ -1,0 +1,34 @@
+.playlist-frame {
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 400px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    transition: 200ms;
+}
+
+.img-playlist {
+    margin-left: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.name-frame {
+    margin-left: 14px;
+}
+
+.name-playlist {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.name-playlist-user {
+    color: #aaa;
+    padding-bottom: 10px;
+}
+
+.playlist-frame:hover {
+    background: #333;
+}

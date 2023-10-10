@@ -1,0 +1,10 @@
+.main-playlist-frame {
+    width: 480px;
+    height: 720px;
+    background: black;
+    border-radius: 25px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
