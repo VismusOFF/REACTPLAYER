@@ -1,0 +1,67 @@
+.track-information {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 30px;
+    border-bottom: 2px solid #aaa;
+    color: #aaa;
+}
+
+.number-name {
+    display: flex;
+    align-items: center;
+    width: 275px;
+}
+
+.date-time {
+    display: flex;
+    align-items: center;
+    width: 275px;
+}
+
+.number-track1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    width: 35px;
+    height: 30px;
+    margin-top: 8px;
+}
+
+.name-track {
+    margin-left: 10px;
+    transition: 200ms;
+}
+
+.date-track {
+    transition: 200ms;
+}
+
+.time-track {
+    align-self: end;
+    margin-left: auto;
+    transition: 200ms;
+    stroke: #AAAAAA;
+    fill: #AAAAAA;
+}
+
+
+
+.name-track:hover {
+    color: white;
+}
+
+.date-track:hover {
+    color: white;
+}
+
+.time-track:hover {
+    fill: white;
+    stroke: white;
+}

@@ -1,0 +1,30 @@
+.track-main-frame {
+    display: flex;
+    width: 1318px;
+    height: 900px;
+    background: black;
+    margin-left: 20px;
+    border-radius: 25px;
+    
+}
+
+.track-icon-frame {
+    display: flex;
+    height: 900px;
+    width: 658px;
+    justify-content: center;
+    align-items: center;
+}
+
+.track-icon {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.tracks-in-playlist {
+    width: 658px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
