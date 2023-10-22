@@ -89,3 +89,11 @@
 .slider-time-example:hover {
     background: white;
 }
+
+.play-icon {
+    transition: 200ms;
+}
+
+.play-icon:hover {
+    transform: scale(1.1);
+}
