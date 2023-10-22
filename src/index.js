@@ -5,6 +5,7 @@ import App from './App';
 import SearchModule from './searchmodule';
 import PlaylistApp from './playlistappmodule';
 import TrackInPlaylist from './trackinplaylist';
+import StrokaCnizy from './stroka';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,11 @@ root.render(
     <div>
       <TrackInPlaylist/>
     </div>
+
+  </div>
+
+  <div>
+    <StrokaCnizy/>
   </div>
 </React.StrictMode>
 );

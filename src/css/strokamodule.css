@@ -1,0 +1,9 @@
+.stroka-main-frame {
+    display: flex;
+    width: 1820px;
+    height: 75px;
+    background: black;
+    margin-top: 10px;
+    border-radius: 25px;
+    justify-content: center;
+}

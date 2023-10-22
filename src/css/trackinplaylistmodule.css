@@ -1,9 +1,9 @@
 .track-main-frame {
     display: flex;
-    width: 1318px;
+    width: 1328px;
     height: 900px;
     background: black;
-    margin-left: 20px;
+    margin-left: 10px;
     border-radius: 25px;
     
 }
@@ -11,7 +11,7 @@
 .track-icon-frame {
     display: flex;
     height: 900px;
-    width: 658px;
+    width: 663px;
     justify-content: center;
     align-items: center;
 }
@@ -23,7 +23,7 @@
 }
 
 .tracks-in-playlist {
-    width: 658px;
+    width: 663px;
     height: 900px;
     display: flex;
     flex-direction: column;
